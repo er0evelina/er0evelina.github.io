@@ -35,7 +35,7 @@ nav {
 main {
     max-width: 960px;
     margin: 0 auto;
-    background-color: hsl(356, 100%, 91%);
+    background-color: #ffdbef;
     border-radius: 10px;
     
     
@@ -65,11 +65,11 @@ table {
 }
 
 th {
-    border: 1px solid rgb(255, 176, 176);
+    border: 1px solid #e5536d;
 }
 
 td {
-    border: 1px solid rgb(255, 170, 170);
+    border: 1px solid #e5536d;
 }
 
 footer {
