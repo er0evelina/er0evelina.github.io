@@ -1,19 +1,20 @@
-html, body, main {
-    height: 100vh;
-}
+
 
 .root {
-    background-color: #f8bbd1;
+    background-color: #f4b6cd;
     margin: 0;
     padding: 0;
 }
 header {
-    min-width: 100%;
-    position: relative;
-    background-color: #ff96ae;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: 0;
+    align-items: center;
+    max-width: 100%;
+    position: relative;
+    background-color: rgb(248, 143, 161);
+    margin: 0 0 5px 0;
+    color: #f5f5f5;
 }
 
 header h3 {
@@ -33,22 +34,32 @@ nav {
 }
 
 main {
-    max-width: 960px;
-    margin: 0 auto;
+    display: flex;
+    max-width: 100%;
+    margin: 5px auto;
     background-color: #ffdbef;
-    border-radius: 10px;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
     
     
 }
 
 li {
-    margin: 0;
-    padding: 0;
+    margin: 15px;
+   
 
 }
 
 a {
     font-size: 20px;
+}
+main ol li {
+    padding: 10px;
+    margin: 5px;
+
 }
 
 p {
@@ -61,7 +72,7 @@ table {
     border-collapse: collapse;
     border: 3px solid #e5536d;
     margin: 50px auto 0 auto;
-    width: 600px;
+    width: 95%;
 }
 
 th {
@@ -70,6 +81,12 @@ th {
 
 td {
     border: 1px solid #e5536d;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 footer {
@@ -105,6 +122,10 @@ footer {
     border-radius:70% ;
 }
 
+.main-section1 {
+    display: flex;
+    flex-direction: column;
+}
 
 #aInText {
     padding: 0;
@@ -143,5 +164,64 @@ footer {
 
 #bottom {
     background-color: transparent;
+}
+@media all and (min-width: 900px) {
+    header {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    .header-wraper {
+        width: 960px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0;
+    }
+
+    main {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .nav-item-wraper {
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .first-table {
+        order: 1;
+    }
+
+    .forms {
+        min-width: 255px;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .head {
+        justify-content: left;
+        width: 30%;
+    }
+
+    .front-block {
+        border-radius: 30px;
+    }
+
+    table {
+        width: 80%;
+    }
 }
 
