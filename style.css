@@ -1,5 +1,5 @@
 .root {
-    background-color: #f5f5f5;
+    background-color: #f4b6cd;
     margin: 0;
     padding: 0;
 }
@@ -11,11 +11,15 @@ header {
     align-items: center;
     max-width: 100%;
     position: relative;
-    background-color: black;
+    background-color: rgb(248, 143, 161);
     margin: 0 0 5px 0;
     color: #f5f5f5;
 }
 
+header h3 {
+    color: #f5f5f5;
+    text-align: center;
+}
 
 footer {
     display: flex;
@@ -23,7 +27,7 @@ footer {
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    background-color: black;
+    background-color: rgb(255, 142, 180);
     color: #f5f5f5;
     margin: 0;
     position: relative;
@@ -31,8 +35,10 @@ footer {
 }
 
 nav {
-    display: block;
-    min-width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 960px;
 }
 
 main {
@@ -42,7 +48,7 @@ main {
     align-items: center;
     max-width: 100%;
     margin: 5px auto;
-    background-color: darkgray;
+    background-color: #ffdbef;
     padding: 5px;
     border-radius: 10px;
 }
@@ -68,17 +74,17 @@ p {
 table {
     table-layout: fixed;
     border-collapse: collapse;
-    border: 3px solid black;
+    border: 3px solid #e5536d;
     margin: 50px auto;
     width: 95%;
 }
 
 th {
-    border: 1px solid black;
+    border: 1px solid #e5536d;
 }
 
 td {
-    border: 1px solid black;
+    border: 1px solid #e5536d;
 }
 
 .head {
@@ -117,8 +123,10 @@ td {
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius:70% ;
 }
 
 .name-project {
@@ -151,9 +159,9 @@ td {
 .forms {
     max-width: 255px;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(243, 173, 197);
     border-radius: 10px;
-    background-color: darkgray;
+    background-color: rgb(141, 208, 241);
     margin: auto auto;
 }
 
@@ -167,7 +175,7 @@ td {
 }
 
 .chet-item {
-    background-color: darkslategray;
+    background-color: rgb(246, 133, 175);
 }
 
 @media all and (min-width: 900px) {
