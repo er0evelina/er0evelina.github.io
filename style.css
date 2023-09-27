@@ -31,10 +31,8 @@ footer {
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-width: 960px;
+    display: block;
+    min-width: 100px;
 }
 
 main {
