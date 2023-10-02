@@ -71,7 +71,7 @@ table {
     border: 3px solid #e5536d;
     margin: 50px auto;
     width: 95%;
-    font-size: 12px;
+    font-size: smaller;
 }
 
 th {
@@ -233,6 +233,6 @@ td {
 
     table {
         width: 80%;
-        font-size: 12px;
+        font-size: small;
     }
 }
