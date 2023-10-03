@@ -71,18 +71,18 @@ table {
     border: 3px solid #e5536d;
     margin: 50px auto;
     width: 95%;
-    font-size: smaller;
+    
 }
 
 th {
     border: 1px solid #e5536d;
-    font-size: x-small;
+    font-size: small;
     
 }
 
 td {
     border: 1px solid #e5536d;
-    font-size: x-small;
+    font-size: small;
     
 }
 
