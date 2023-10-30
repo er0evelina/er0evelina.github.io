@@ -1,14 +1,19 @@
-.root {
-    background-color: hwb(315 20% 79%);
-    margin: 0;
-    padding: 0;
+body{
+    background-color: rgb(100, 89, 88) ;
 }
-head {
-    background-color: rgb(248, 143, 161);
-    color: #f5f5f5;
+html {
+    height: 100%;
+}
+.pots{
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 300px;
+    min-height: 300px;
 }
 
-.btn{
-    color: hsl(343, 74%, 61%); 
-    border-color: hsl(343, 74%, 61%) ;
+.slick-wrapper {
+    max-width: 80%;
+    max-height: 80%;
+    background: rgb(234, 203, 186);
+    border-radius: 20px;
 }
