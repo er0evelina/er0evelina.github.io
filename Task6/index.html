@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>задание 5</title><script src="./index.js" defer></script>
+    <title>задание 6</title><script src="./script.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">     
+
+    <link rel="stylesheet" href="style.css"> 
 </head>
-<body class="root h-100 d-flex flex-column justify-content-between">
+<body class="h-100 d-flex flex-column justify-content-between">
 <main class="p-5">
     <div class="container mx-auto d-flex align-items-center justify-content-center">
-        <form id="mainForm" class="p-4 border-2 bg-dark rounded-3">
-            <div class="mb-2 border border-1 border-dark border-opacity-50 rounded-2">
-                <label for="result" class="w-100"><input class="form-control" id="result" disabled></label>
+        <form id="mainForm" class="border bg-dark p-3 border border-1 rounded-4 text-white">
+            <div>
+                <label for="result"></label><input class="form-control mb-2 border border-1 border-dark border-opacity-50 rounded-2" id="result" disabled>
             </div>
             <div class="mb-1">
-                <label for="select" class="text-white">Выберите одежду</label>
+                <label for="select">Выберите одежду</label>
                 <select class="form-select" id="select">
                     <option value="0">Футболка</option>
                     <option value="1">Шорты</option>
@@ -25,11 +25,19 @@
                 </select>
             </div>
             <div class="mb-3">
-                <label for="Count" class="form-label text-white">Выберите количество</label>
-                <input type="text" class="form-control" id="Count" value="0">
+                <label for="Count" class="form-label">Выберите количество</label>
+                <input type="text" class="form-control" id="Count" value="1">
             </div>
-            <div class="d-flex justify-content-center align-items-center">
-                <button type="button" class="btn btn-outline-info" id="button">Посчитать стоимость</button>
+            <div id="radios">
+                <div class="d-flex mb-3 justify-content-around" id="radio">
+                    <label><input type="radio" name="radio" value="r" checked>x1</label>
+                    <label><input type="radio" name="radio" value="r1">x2</label>
+                    <label><input type="radio" name="radio" value="r2">x3</label>
+                </div>
+            </div>
+            <div class="justify-content-start mx-4" id="checkD">
+                <label for="checkbox">Бонус на благотворительность :] </label>
+                <label class="m-1"><input class="w-100" type="checkbox" id="checkbox"></label>
             </div>
         </form>
     </div>
