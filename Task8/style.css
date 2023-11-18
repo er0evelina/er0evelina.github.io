@@ -3,38 +3,40 @@ html {
 }
 
 .root {
-    background-color: rgb(224, 169, 199);
+    background-color: rgb(71, 67, 68);
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color:#ef6e95 ;
-    box-shadow: 5px 0 1px rgb(105, 67, 67);
+    background-color:#e588a9 ;
+    box-shadow: 5px 0 1px rgb(233, 217, 217);
+    color: #f5f5f5;
 }
 
 footer {
     width: 100%;
     display: flex;
-    border-top: 1px solid rgb(195, 129, 129);
-    background-color: rgb(220, 100, 100);
+    background-color: #e588a9;
 }
 
 .logo {
     width: 70px;
     height: 70px;
+    border-radius:70% ;
+    margin-right: 25px;
 }
 
 .fb {
-    border: 3px solid #817c75;
+    border: 3px solid #474542;
     border-radius: 35px;
-    background: #a9a298;
-    box-shadow: 0 0 1px dimgrey;
+    background: rgb(223, 126, 160);
+    box-shadow: 0 0 1px rgb(244, 168, 168);
     overflow: hidden;
 }
 
 #pop-up {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(89, 87, 88, 0.881);
     overflow: hidden;
     position: fixed;
     top: 0;
