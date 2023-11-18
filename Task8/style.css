@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+}
+
+.root {
+    background-color: rgb(224, 169, 199);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#ef6e95 ;
+    box-shadow: 5px 0 1px rgb(105, 67, 67);
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    border-top: 1px solid rgb(195, 129, 129);
+    background-color: rgb(220, 100, 100);
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.fb {
+    border: 3px solid #817c75;
+    border-radius: 35px;
+    background: #a9a298;
+    box-shadow: 0 0 1px dimgrey;
+    overflow: hidden;
+}
+
+#pop-up {
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
